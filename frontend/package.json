@@ -28,6 +28,16 @@
       "react-app/jest"
     ]
   },
+  "build": {
+    "files": [
+      "src/index.js",
+      "src/App.js",
+      "src/components/*.js"
+    ],
+    "output": "build/static/js"
+  },
+
+
   "browserslist": {
     "production": [
       ">0.2%",
